@@ -14,14 +14,21 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #161514e7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.bgimg{
+  background: url("BackgroundImage.jpg");
+  opacity : 2.8; 
+  background-size :cover;
+  height: auto;
 }
 
 .App-link {
@@ -35,4 +42,7 @@
   to {
     transform: rotate(360deg);
   }
+  
+
 }
+
