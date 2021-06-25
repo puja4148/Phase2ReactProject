@@ -9,11 +9,10 @@ class EventsState extends Component {
        state={
        
         flag: false,
-        SearchEvent : false , 
-        title: "State Check",
+        SearchEvent : false ,
         events : [
               {
-                 Id: '1',
+                  Id: '1',
                   EventName: 'New Year Party 2022',
                   Venue: 'The Social',
                   Time: '2:00 PM',
@@ -104,6 +103,7 @@ AddNewEvent =() => {
 
        addNewEventToExistingArray=(newEvent)=>{
         this.setState({...this.state, events: [newEvent, ...this.state.events]})
+        {alert("Event added successfully. Click  OK to continue! Click on Show All Events to check the refreshed logs.")}
        
       }
 
